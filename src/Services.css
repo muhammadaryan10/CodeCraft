@@ -1,0 +1,45 @@
+
+.swiperList {
+  width: 20vw;
+  height: 55vh;
+}
+
+.swiper-slideList {
+  border-radius: 18px;
+  /* font-size: 22px; */
+  /* font-weight: bold; */
+  /* color: #fff; */
+  border: 1px solid lightgray;
+  background-color: #15171e;
+}
+
+.swiper-slideList:hover{
+  border: 1px solid #9e0037;
+  background: linear-gradient(to right, #8d0132ef, #15171e);
+}
+
+
+@media only screen and (max-width: 576px) {
+   .swiperList {
+    width: 60vw !important;
+    height: 60vh !important;
+  }
+}
+
+/* Styles for medium screens */
+@media only screen and (max-width: 768px) {
+  /* Example styles */
+  .swiperList {
+    width: 40vw;
+    height: 50vh !important;
+  }
+}
+
+/* Styles for large screens */
+@media only screen and (max-width: 992px) {
+  /* Example styles */
+  .swiperList {
+    width: 30vw;
+    height: 50vh;
+  }
+}
