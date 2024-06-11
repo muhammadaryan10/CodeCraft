@@ -36,7 +36,7 @@ function App() {
     <ServicesList/>
     <Cleints/>
     <Services/>
-    <Portfolio/>
+    {/* <Portfolio/> */}
     <Grow/>
 
     <Contact contactRef={contactRef}/>

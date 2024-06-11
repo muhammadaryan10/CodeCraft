@@ -1,127 +1,51 @@
-export default function Footer(){
-
-    const footerNavs = [
-        {
-            label: "Company",
-            items: [
-                {
-                    href: 'javascript:void()',
-                    name: 'Partners'
-                },
-                {
-                    href: 'javascript:void()',
-                    name: 'Blog'
-                },
-                {
-                    href: 'javascript:void()',
-                    name: 'Team'
-                },
-                {
-                    href: 'javascript:void()',
-                    name: 'Careers'
-                },
-            ],
-        },
-        {
-            label: "Resources",
-            items: [
-                {
-                    href: 'javascript:void()',
-                    name: 'contact'
-                },
-                {
-                    href: 'javascript:void()',
-                    name: 'Support'
-                },
-                {
-                    href: 'javascript:void()',
-                    name: 'Docs'
-                },
-                {
-                    href: 'javascript:void()',
-                    name: 'Pricing'
-                },
-            ],
-        },
-        {
-            label: "About",
-            items: [
-                {
-                    href: 'javascript:void()',
-                    name: 'Terms'
-                },
-                {
-                    href: 'javascript:void()',
-                    name: 'License'
-                },
-                {
-                    href: 'javascript:void()',
-                    name: 'Privacy'
-                },
-                {
-                    href: 'javascript:void()',
-                    name: 'About US'
-                },
-            ]
-        }
-    ]
+export default function Footer() {
 
     return (
         <footer className="text-white testonomical_background px-4 py-5 max-w-screen-xl mx-auto md:px-8">
             <div className="gap-6 justify-between md:flex">
                 <div className="flex-1">
                     <div className="max-w-sm">
-                    <img className="h-12 w-auto" src="https://expertcodecraft.com/wp-content/uploads/2023/08/logo_white-scaled-1.webp" alt="" />
+                        <img className="h-12 w-auto" src="https://expertcodecraft.com/wp-content/uploads/2023/08/logo_white-scaled-1.webp" alt="" />
                         <p className="leading-relaxed mt-2 text-[15px]">
-                        We are a design agency offering top-tier digital solutions to businesses to help make a lasting impact on their target audience and foster their business growth.
+                            We are a design agency offering top-tier digital solutions to businesses to help make a lasting impact on their target audience and foster their business growth.
                         </p>
                     </div>
-                    <form 
-                        onSubmit={(e) => e.preventDefault()}
-                    >
-                        <label className="block pt-4 pb-2">
-                            Stay up to date
-                        </label>
-                        <div className="max-w-sm flex items-center border rounded-md p-1">
-                            <input 
-                                type="email"
-                                placeholder="Enter your email"
-                                className="w-full p-2.5 outline-none"
-                            />
-                            <button
-                                className="p-2.5 rounded-md text-white theme_color outline-none shadow-md focus:shadow-none sm:px-5"
-                            >
-                                Subscribe
-                            </button>
-                        </div>
-                    </form>
+
                 </div>
                 <div className="flex-1 mt-10 space-y-6 items-center justify-between sm:flex md:space-y-0 md:mt-0">
-                    {
-                        footerNavs.map((item, idx) => (
-                            <ul
-                                className="space-y-4"
-                                key={idx}
-                            >
-                                <h4 className="text-white text-lg font-medium">
-                                    { item.label }
-                                </h4>
-                                {
-                                    item.items.map(((el, idx) => (
-                                        <li key={idx}>
-                                            <a 
-                                                href={el.href}
-                                                className="hover:underline hover:text-rose-600"
-                                            
-                                            >
-                                                { el.name }
-                                            </a>
-                                        </li>
-                                    )))
-                                }
-                            </ul>
-                        ))
-                    }
+                    <ul
+                        className="space-y-4"
+                    >
+                        <a href="https://expertcodecraft.com/privacy-policy/"  className="text-white text-sm ">
+                            Privacy Policy
+                        </a>
+                        <h4 className="text-white text-sm">
+                            Terms And Services
+                        </h4>
+                    </ul>
+                    <ul
+                        className="space-y-4"
+                    >
+                        <form
+                            onSubmit={(e) => e.preventDefault()}
+                        >
+                            <label className="block pt-4 pb-2">
+                                Subscribe Our News Letter and Stay up to date
+                            </label>
+                            <div className="max-w-sm flex items-center border rounded-md p-1">
+                                <input
+                                    type="email"
+                                    placeholder="Enter your email"
+                                    className="w-full p-2.5 outline-none"
+                                />
+                                <button
+                                    className="p-2.5 rounded-md text-white theme_color outline-none shadow-md focus:shadow-none sm:px-5"
+                                >
+                                    Subscribe
+                                </button>
+                            </div>
+                        </form>
+                    </ul>
                 </div>
             </div>
             <div className="mt-8 pt-6 border-t items-center justify-between sm:flex" >

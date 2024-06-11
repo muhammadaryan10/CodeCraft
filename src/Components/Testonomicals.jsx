@@ -177,7 +177,7 @@ export default function Testonomicals() {
                                     </a>
                                 </div>
                             </li>
-                            <li class="text-sm leading-6">
+                            {/* <li class="text-sm leading-6">
                                 <div class="relative group">
                                     <div
                                         class="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200">
@@ -196,7 +196,7 @@ export default function Testonomicals() {
                                         </div>
                                     </a>
                                 </div>
-                            </li>
+                            </li> */}
                         </ul>
 
 
@@ -262,7 +262,7 @@ export default function Testonomicals() {
                                     </a>
                                 </div>
                             </li>
-                            <li class="text-sm leading-6">
+                            {/* <li class="text-sm leading-6">
                                 <div class="relative group">
                                     <div
                                         class="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200">
@@ -283,7 +283,7 @@ export default function Testonomicals() {
                                         </div>
                                     </a>
                                 </div>
-                            </li>
+                            </li> */}
                         </ul>
 
 

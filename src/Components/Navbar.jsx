@@ -64,15 +64,15 @@ export default function Navbar({ onClick  }) {
           {/* <a href="#" className="text-sm font-semibold leading-6 links  ">
             Home
           </a> */}
-          <a href="https://expertcodecraft.com/privacy-policy/" className="text-sm font-semibold leading-6 links">
+          {/* <a  className="text-sm font-semibold leading-6 links">
             Privacy Policy
-          </a>
+          </a> */}
           {/* <a href="#" className="text-sm font-semibold leading-6 links">
             Showcase
           </a> */}
-          <a href="#" className="text-sm font-semibold leading-6 links">
+          {/* <a href="#" className="text-sm font-semibold leading-6 links">
             Terms and Services
-          </a>
+          </a> */}
           {/* <a href="#" className="text-sm font-semibold leading-6 links">
             About Us
           </a> */}
