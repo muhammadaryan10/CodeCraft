@@ -14,10 +14,10 @@ export default function Services() {
     return (<>
         <div className='theme_background border-t'>
             <section class="text-gray-600 body-font">
-                <div class="container mx-auto flex px-5 pt-24 items-center justify-center flex-col">
+                <div class="container mx-auto flex sm:px-5 px-1 pt-24 items-center justify-center flex-col">
                     <div class="text-center lg:w-2/3 w-full">
                         {/* <p class="mb-8 leading-relaxed text-white"> <FontAwesomeIcon icon={faCircleNotch} className='theme_text mx-2' />EXPERT CODE CRAFT SERVICES</p> */}
-                        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">EXPLORE NEW WAYS TO ATTRACT
+                        <h1 class="title-font sm:text-4xl text-xl mb-4 font-medium text-white">EXPLORE NEW WAYS TO ATTRACT
                             CAPTIVATE YOUR CUSTOMERS</h1>
                         {/* <p class="mb-8 leading-relaxed text-white">Expert Code Craft is a Software Development Company in USA that provides Web Design Development, Logo Designing, Mobile Game App Development, and Digital Marketing. Our services include crafting advanced applications by expert consulting and working processes. Our focus is to drive rapid growth and agile adaptation. Our developers have a great hold on native, cross-platform, and hybrid mobile app development. Expert Code Craft provides high-quality mobile app solutions customized to meet your business's goals and targets. We aim to assist companies in modernizing intricate application environments and blending digital, SaaS, and legacy systems smoothly with speed and flexibility.</p> */}
                     </div>

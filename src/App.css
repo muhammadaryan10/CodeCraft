@@ -118,6 +118,9 @@
   display: flex;
 }
 
+  .hero{
+    background-image: url('./assets/Hero.webp') 
+  }
 
 
 
@@ -136,5 +139,50 @@
   .Buttons {
     display: block !important; 
     width: 85vw;
+  }
+}
+
+
+@media (max-width: 575.98px) {
+  .Grow_Section{
+    padding: 15px;
+  }
+  .hero{
+    background-image: url('./assets/Hero.webp');
+    background-position: left;
+    background-size: 400%;    
+  }
+}
+
+/* Styles for small devices (tablets) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .Grow_Section{
+    padding: 25px;
+  }
+  .hero{
+    background-image: url('./assets/Hero.webp');
+    background-position: left;
+    background-size: 600%;    
+  }
+}
+
+/* Styles for medium devices (tablets and desktops) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .Grow_Section{
+    padding: 30px;
+  }
+}
+
+/* Styles for large devices (desktops) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .Grow_Section{
+    padding: 40px;
+  }
+}
+
+/* Styles for extra large devices (large desktops) */
+@media (min-width: 1200px) {
+  .Grow_Section{
+    padding: 50px;
   }
 }

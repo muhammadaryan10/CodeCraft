@@ -11,16 +11,16 @@ const Portfolio = () => {
 
   return (
     <>
-      <section className="pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] dark:bg-dark">
+      <section className=" pt-8 pb-12 lg:pt-[120px] lg:pb-[90px] dark:bg-dark">
         <div className="container mx-auto">
           <div className="flex flex-wrap ">
             <div className="w-full px-4">
               <div className="mx-auto mb-[60px] max-w-[510px] text-center">
               <p class="mb-8 leading-relaxed text-white"> <FontAwesomeIcon icon={faCircleNotch} className='theme_text mx-2' />Our Portfolio</p>
-                <h2 className="text-white mb-3 text-3xl leading-[1.208] font-bold sm:text-4xl md:text-[40px]">
+                <h2 className="text-white mb-3 text-xl leading-[1.208] font-bold sm:text-4xl md:text-[40px]">
                   Our Recent Projects
                 </h2>
-                <p className="text-white text-base dark:text-white-6">
+                <p className="text-white sm:text-base text-xs dark:text-white-6 ">
                   There are many variations of passages of Lorem Ipsum available
                   but the majority have suffered alteration in some form.
                 </p>

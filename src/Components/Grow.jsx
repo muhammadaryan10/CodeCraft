@@ -2,7 +2,7 @@ import IOS from '../assets/IOS.webp'
 
 export default function Grow (){
     return (
-        <div className="p-5 mx-auto  testonomical_background md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20" style={{minHeight :'70vh'}}>
+        <div className="testonomical_background  lg:max-w-screen-xl Grow_Section" style={{minHeight :'70vh'}}>
         <div className="grid gap-12 row-gap-8 lg:grid-cols-2">
           <div className="flex flex-col justify-center">
             <div className="max-w-xl mb-6">
@@ -67,7 +67,7 @@ export default function Grow (){
           </div>
           <div className='flex justify-end'>
             <img
-              className="object-cover  rounded shadow-lg sm:h-96 pr-5"
+              className="object-cover  rounded shadow-lg sm:h-96 pr-5 hidden  lg:block"
               style={{height :'650px'}}
               src={IOS}
               alt=""

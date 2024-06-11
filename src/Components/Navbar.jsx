@@ -162,7 +162,7 @@ export default function Navbar({ onClick  }) {
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
-                <Disclosure as="div" className="-mx-3">
+                {/* <Disclosure as="div" className="-mx-3">
                   {({ open }) => (
                     <>
                       <DisclosureButton className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 links hover:bg-rose-700">
@@ -186,25 +186,20 @@ export default function Navbar({ onClick  }) {
                       </DisclosurePanel>
                     </>
                   )}
-                </Disclosure>
+                </Disclosure> */}
                 <a
-                  href="#"
+                  href="https://expertcodecraft.com/privacy-policy/"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 links hover:bg-rose-700"
                 >
-                  Features
+                  Privacy Policy
                 </a>
                 <a
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 links hover:bg-rose-700"
                 >
-                  Marketplace
+                  Terms and Services
                 </a>
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 links hover:bg-rose-700"
-                >
-                  Company
-                </a>
+
               </div>
               <div className="py-6">
                 <a href="#"  className="block w-full theme_color  p-3 rounded text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto">
